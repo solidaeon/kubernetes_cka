@@ -1,6 +1,6 @@
 locals {
 
-  count = 2
+  instance_count = 2
 
   ami_id = "ami-0df99b3a8349462c6"
 
@@ -8,7 +8,7 @@ locals {
 
   security_group_ids = ["sg-61d44018"]
 
-  subnet_id = ""
+  subnet_id = "subnet-3c624e4b"
 
   tags = {
     BUSINESS_UNIT="PSS"

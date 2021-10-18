@@ -1,14 +1,12 @@
 alias k='kubectl'; \
 alias kg='kubectl get'; \
-alias kgks='kubectl get -n kube-system'; \
+alias kgy='kubectl get -o yaml'; \
 alias kd='kubectl describe'; \
-alias kdks='kubectl describe -n kube-system'; \
-alias kc='kubectl create'; \
-alias kcks='kubectl create -n kube-system'; \
+alias kcy='kubectl create --dry-run=client -o yaml'; \
 alias kr='kubectl run'; \
-alias krks='kubectl run -n kube-system'; \
+alias kry='kubectl run --dry-run=client -o yaml'; \
 alias kx='kubectl delete'; \
-alias kxks='kubectl delete -n kube-system'; \
+alias kxx='kubectl delete --grace-period=0 --force'; \
 alias ka='kubectl apply';
 
 kubectl get nodes -A -o=jsonpath='{.items[*].status.nodeInfo.osImage}'
