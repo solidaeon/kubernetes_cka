@@ -1,0 +1,14 @@
+alias k='kubectl'; \
+alias kg='kubectl get'; \
+alias kgks='kubectl get -n kube-system'; \
+alias kd='kubectl describe'; \
+alias kdks='kubectl describe -n kube-system'; \
+alias kc='kubectl create'; \
+alias kcks='kubectl create -n kube-system'; \
+alias kr='kubectl run'; \
+alias krks='kubectl run -n kube-system'; \
+alias kx='kubectl delete'; \
+alias kxks='kubectl delete -n kube-system'; \
+alias ka='kubectl apply';
+
+kubectl get nodes -A -o=jsonpath='{.items[*].status.nodeInfo.osImage}'
