@@ -1,0 +1,16 @@
+{
+  "CN": "system:node:ip-100-103-138-196",
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  },
+  "names": [
+    {
+      "C": "US",
+      "L": "Nashville",
+      "O": "system:nodes",
+      "OU": "Kubernetes The Hard Way",
+      "ST": "Tennessee"
+    }
+  ]
+}

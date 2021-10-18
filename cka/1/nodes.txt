@@ -1,0 +1,5 @@
+master_ip = 100.103.139.205
+master_instance_id = i-064183a206a8e7a3a
+
+node01_ip = 100.103.138.196
+node01_instance_id = i-0e2ffbc2f808b9337
